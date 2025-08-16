@@ -6,3 +6,5 @@ fin AgregarVariables_IntraMes()
 45Fin construccion RandomForest
 inicio CanaritosAsesinos()
 fin CanaritosAsesinos()
+inicio CanaritosAsesinos()
+fin CanaritosAsesinos()
