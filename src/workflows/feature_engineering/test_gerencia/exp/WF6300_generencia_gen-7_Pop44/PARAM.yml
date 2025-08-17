@@ -62,8 +62,8 @@ CN:
     gan1: 117000.0
     gan0: -3000.0
 FE_GENALG:
-  generations: 7.0
-  population: 44.0
+  generations: 9.0
+  population: 30.0
   max_depth: 4.0
   semillas:
   - 160627
@@ -73,6 +73,8 @@ FE_GENALG:
   - 468389
   - 490393
   - 949589
+  - 953873
+  - 467591
 trainingstrategy:
   validate: 202107.0
   training:
