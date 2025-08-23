@@ -1,0 +1,12 @@
+inicio AgregarVariables_IntraMes()
+ATENCION, hay 3047687valores infinitos en tu dataset. Seran pasados a NA
+ATENCION, hay311497valores NaN 0/0 en tu dataset. Seran pasados arbitrariamente a 0
+Si no te gusta la decision, modifica a gusto el programa!
+
+fin AgregarVariables_IntraMes()
+inicio CanaritosAsesinos()
+inicio AgregarVariables_IntraMes()
+fin AgregarVariables_IntraMes()
+inicio CanaritosAsesinos()
+fin CanaritosAsesinos()
+155

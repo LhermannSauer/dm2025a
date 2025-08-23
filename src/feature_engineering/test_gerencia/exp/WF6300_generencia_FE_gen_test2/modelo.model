@@ -1,0 +1,477 @@
+tree
+version=v4
+num_class=1
+num_tree_per_iteration=1
+label_index=0
+max_feature_idx=295
+objective=binary sigmoid:1
+average_output
+feature_names=numero_de_cliente foto_mes internet cliente_edad cliente_antiguedad mrentabilidad mrentabilidad_annual mcomisiones mactivos_margen mpasivos_margen cproductos mcuenta_corriente mcaja_ahorro cdescubierto_preacordado mcuentas_saldo ctarjeta_visa_transacciones mtarjeta_visa_consumo mtarjeta_master_consumo mprestamos_personales cpayroll_trx mpayroll ccomisiones_mantenimiento ccallcenter_transacciones chomebanking_transacciones ctrx_quarter Master_status Master_fechaalta Master_mpagominimo Visa_status Visa_fechaalta Visa_mpagominimo kmes mpayroll_sobre_edad ctrx_quarter_normalizado foto_mes_formato_fecha vm_status01 vm_status02 vm_status03 vm_status04 vm_status05 vm_status06 mv_status07 vm_fechaalta vm_mpagominimo internet_lag1 cliente_edad_lag1 cliente_antiguedad_lag1 mrentabilidad_lag1 mrentabilidad_annual_lag1 mcomisiones_lag1 mactivos_margen_lag1 mpasivos_margen_lag1 cproductos_lag1 mcuenta_corriente_lag1 mcaja_ahorro_lag1 cdescubierto_preacordado_lag1 mcuentas_saldo_lag1 ctarjeta_visa_transacciones_lag1 mtarjeta_visa_consumo_lag1 mtarjeta_master_consumo_lag1 mprestamos_personales_lag1 cpayroll_trx_lag1 mpayroll_lag1 ccomisiones_mantenimiento_lag1 ccallcenter_transacciones_lag1 chomebanking_transacciones_lag1 ctrx_quarter_lag1 Master_status_lag1 Master_fechaalta_lag1 Master_mpagominimo_lag1 Visa_status_lag1 Visa_fechaalta_lag1 Visa_mpagominimo_lag1 kmes_lag1 mpayroll_sobre_edad_lag1 ctrx_quarter_normalizado_lag1 foto_mes_formato_fecha_lag1 vm_status01_lag1 vm_status02_lag1 vm_status03_lag1 vm_status04_lag1 vm_status05_lag1 vm_status06_lag1 mv_status07_lag1 vm_fechaalta_lag1 vm_mpagominimo_lag1 internet_lag2 cliente_edad_lag2 cliente_antiguedad_lag2 mrentabilidad_lag2 mrentabilidad_annual_lag2 mcomisiones_lag2 mactivos_margen_lag2 mpasivos_margen_lag2 cproductos_lag2 mcuenta_corriente_lag2 mcaja_ahorro_lag2 cdescubierto_preacordado_lag2 mcuentas_saldo_lag2 ctarjeta_visa_transacciones_lag2 mtarjeta_visa_consumo_lag2 mtarjeta_master_consumo_lag2 mprestamos_personales_lag2 cpayroll_trx_lag2 mpayroll_lag2 ccomisiones_mantenimiento_lag2 ccallcenter_transacciones_lag2 chomebanking_transacciones_lag2 ctrx_quarter_lag2 Master_status_lag2 Master_fechaalta_lag2 Master_mpagominimo_lag2 Visa_status_lag2 Visa_fechaalta_lag2 Visa_mpagominimo_lag2 kmes_lag2 mpayroll_sobre_edad_lag2 ctrx_quarter_normalizado_lag2 foto_mes_formato_fecha_lag2 vm_status01_lag2 vm_status02_lag2 vm_status03_lag2 vm_status04_lag2 vm_status05_lag2 vm_status06_lag2 mv_status07_lag2 vm_fechaalta_lag2 vm_mpagominimo_lag2 internet_lag3 cliente_edad_lag3 cliente_antiguedad_lag3 mrentabilidad_lag3 mrentabilidad_annual_lag3 mcomisiones_lag3 mactivos_margen_lag3 mpasivos_margen_lag3 cproductos_lag3 mcuenta_corriente_lag3 mcaja_ahorro_lag3 cdescubierto_preacordado_lag3 mcuentas_saldo_lag3 ctarjeta_visa_transacciones_lag3 mtarjeta_visa_consumo_lag3 mtarjeta_master_consumo_lag3 mprestamos_personales_lag3 cpayroll_trx_lag3 mpayroll_lag3 ccomisiones_mantenimiento_lag3 ccallcenter_transacciones_lag3 chomebanking_transacciones_lag3 ctrx_quarter_lag3 Master_status_lag3 Master_fechaalta_lag3 Master_mpagominimo_lag3 Visa_status_lag3 Visa_fechaalta_lag3 Visa_mpagominimo_lag3 kmes_lag3 mpayroll_sobre_edad_lag3 ctrx_quarter_normalizado_lag3 foto_mes_formato_fecha_lag3 vm_status01_lag3 vm_status02_lag3 vm_status03_lag3 vm_status04_lag3 vm_status05_lag3 vm_status06_lag3 mv_status07_lag3 vm_fechaalta_lag3 vm_mpagominimo_lag3 internet_delta1 internet_delta2 internet_delta3 cliente_edad_delta1 cliente_edad_delta2 cliente_edad_delta3 cliente_antiguedad_delta1 cliente_antiguedad_delta2 cliente_antiguedad_delta3 mrentabilidad_delta1 mrentabilidad_delta2 mrentabilidad_delta3 mrentabilidad_annual_delta1 mrentabilidad_annual_delta2 mrentabilidad_annual_delta3 mcomisiones_delta1 mcomisiones_delta2 mcomisiones_delta3 mactivos_margen_delta1 mactivos_margen_delta2 mactivos_margen_delta3 mpasivos_margen_delta1 mpasivos_margen_delta2 mpasivos_margen_delta3 cproductos_delta1 cproductos_delta2 cproductos_delta3 mcuenta_corriente_delta1 mcuenta_corriente_delta2 mcuenta_corriente_delta3 mcaja_ahorro_delta1 mcaja_ahorro_delta2 mcaja_ahorro_delta3 cdescubierto_preacordado_delta1 cdescubierto_preacordado_delta2 cdescubierto_preacordado_delta3 mcuentas_saldo_delta1 mcuentas_saldo_delta2 mcuentas_saldo_delta3 ctarjeta_visa_transacciones_delta1 ctarjeta_visa_transacciones_delta2 ctarjeta_visa_transacciones_delta3 mtarjeta_visa_consumo_delta1 mtarjeta_visa_consumo_delta2 mtarjeta_visa_consumo_delta3 mtarjeta_master_consumo_delta1 mtarjeta_master_consumo_delta2 mtarjeta_master_consumo_delta3 mprestamos_personales_delta1 mprestamos_personales_delta2 mprestamos_personales_delta3 cpayroll_trx_delta1 cpayroll_trx_delta2 cpayroll_trx_delta3 mpayroll_delta1 mpayroll_delta2 mpayroll_delta3 ccomisiones_mantenimiento_delta1 ccomisiones_mantenimiento_delta2 ccomisiones_mantenimiento_delta3 ccallcenter_transacciones_delta1 ccallcenter_transacciones_delta2 ccallcenter_transacciones_delta3 chomebanking_transacciones_delta1 chomebanking_transacciones_delta2 chomebanking_transacciones_delta3 ctrx_quarter_delta1 ctrx_quarter_delta2 ctrx_quarter_delta3 Master_status_delta1 Master_status_delta2 Master_status_delta3 Master_fechaalta_delta1 Master_fechaalta_delta2 Master_fechaalta_delta3 Master_mpagominimo_delta1 Master_mpagominimo_delta2 Master_mpagominimo_delta3 Visa_status_delta1 Visa_status_delta2 Visa_status_delta3 Visa_fechaalta_delta1 Visa_fechaalta_delta2 Visa_fechaalta_delta3 Visa_mpagominimo_delta1 Visa_mpagominimo_delta2 Visa_mpagominimo_delta3 kmes_delta1 kmes_delta2 kmes_delta3 mpayroll_sobre_edad_delta1 mpayroll_sobre_edad_delta2 mpayroll_sobre_edad_delta3 ctrx_quarter_normalizado_delta1 ctrx_quarter_normalizado_delta2 ctrx_quarter_normalizado_delta3 foto_mes_formato_fecha_delta1 foto_mes_formato_fecha_delta2 foto_mes_formato_fecha_delta3 vm_status01_delta1 vm_status01_delta2 vm_status01_delta3 vm_status02_delta1 vm_status02_delta2 vm_status02_delta3 vm_status03_delta1 vm_status03_delta2 vm_status03_delta3 vm_status04_delta1 vm_status04_delta2 vm_status04_delta3 vm_status05_delta1 vm_status05_delta2 vm_status05_delta3 vm_status06_delta1 vm_status06_delta2 vm_status06_delta3 mv_status07_delta1 mv_status07_delta2 mv_status07_delta3 vm_fechaalta_delta1 vm_fechaalta_delta2 vm_fechaalta_delta3 vm_mpagominimo_delta1 vm_mpagominimo_delta2 vm_mpagominimo_delta3
+feature_infos=[29186441:186129871] [202101:202103] [0:3] [19:92] [1:375] [-132031.95546462113:584652.60308303311] [-667018.91575460392:2573627.0107244016] [-21764.014782946251:186141.96514316116] [-86170.00967735381:110991.55905417315] [-28168.722167399192:411464.73329145258] [4:16] [-2526911.0454050521:18753807.153156545] [0:15454811.957981905] [0:1] [-2526836.2148145419:131846745.92929399] [0:333] [0:1348437.5991756644] [0:1748500.6278941503] [0:2262725.101561971] [0:37] [0:13470493.600663258] [0:7] [0:72] [0:1625] [0:2057] [0:9] [1:7602] [0:461675.26639310276] [0:9] [1:11852] [0:905966.87683075655] [1:3] [0:268337.6641851826] [0:2057] [18628:18687] [0:9] [0:18] [0:10] [0:20] [0:1010] [0:10] [0:10] [1:11852] [0:919531.1279044128] [0:3] [19:92] [1:374] [-150300.5:584652.60308303311] [-703135.65000000002:2392998.6413151752] [-10761.41335874994:186141.96514316116] [-89657.149999999994:90699.639999999999] [-40138.290000000001:411464.73329145258] [4:16] [-2610299.1099999999:18753807.153156545] [0:15454811.957981905] [0:1] [-2610221.8100000001:131846745.92929399] [0:328] [0:1724164.45] [0:1748500.6278941503] [0:2440728.8500000001] [0:49] [0:18603188.800000001] [0:7] [0:63] [0:1625] [0:1978] [0:9] [2:7571] [0:2057125.29] [0:9] [2:11821] [0:912664.38] [1:12] [0:395812.52765957447] [0:1978] [18567:18659] [0:9] [0:18] [0:10] [0:20] [0:1010] [0:10] [0:10] [2:11821] [0:2266341.5699999998] [0:4] [19:92] [1:373] [-150300.5:354053.67032999999] [-735630.23322000005:2094551.08971] [-15703.882089999999:186141.96514316116] [-89657.149999999994:108016.37768999999] [-40138.290000000001:301168.42285999999] [4:17] [-2706880.1770699997:7970737.9474301552] [-74.77807:12524644.210000001] [0:1] [-2706800.0169699998:131846745.92929399] [0:280] [0:1724164.45] [0:1279752.0455299998] [0:2440728.8500000001] [0:49] [0:21571833.397269998] [0:13] [0:43] [0:1625] [0:2018] [0:9] [1:7543] [0:2057125.29] [0:9] [1:11793] [0:988666.40477999987] [1:12] [0:440241.49790346937] [0:2018] [18444:18628] [0:9] [0:18] [0:10] [0:20] [0:1010] [0:10] [0:10] [1:11793] [0:2266341.5699999998] [0:4] [19:92] [1:372] [-150300.5:354053.67032999999] [-759158.88342919992:2094551.08971] [-15703.882089999999:110590.56427] [-89657.149999999994:108016.37768999999] [-40138.290000000001:301168.42285999999] [4:17] [-2788086.5823820997:6574163.3300000001] [-74.77807:12524644.210000001] [0:1] [-2788004.0174790998:131619393.31] [0:301] [0:1724164.45] [0:2048648.8333866997] [0:2440728.8500000001] [0:49] [0:21571833.397269998] [0:19] [0:53] [0:1699] [0:2018] [0:9] [1:7512] [0:2057125.29] [0:9] [1:11762] [0:996262.9506650999] [6:12] [0:440241.49790346937] [0:2018] [18414:18597] [0:9] [0:18] [0:10] [0:20] [0:1010] [0:10] [0:10] [1:11762] [0:2266341.5699999998] [-3:3] [-3:3] [-3:3] [0:14] [-2:15] [-2:15] [1:3] [-16:4] [-15:5] [-181201.36409040247:380666.21393278777] [-150067.28117975465:340065.07308303309] [-130954.56358872114:230598.93275303312] [-146872.4675447077:326169.12541875336] [-244479.69092205778:506797.49482797971] [-447054.48368082417:489610.71072440152] [-185136.29137371155:181774.98514316115] [-185021.32411751905:164762.53020316115] [-103806.29487186155:173839.13236796117] [-58332.745871702558:92487.496923645478] [-82961.043712224229:91392.014040377515] [-76200.734084054842:95044.500336131896] [-147286.18435566995:240743.50386892125] [-130447.19343746867:204104.44329145257] [-107928.31721606865:110296.31043145258] [-5:4] [-5:4] [-6:3] [-10761329.727151915:10783069.205726389] [-5900227.6439271094:12179643.823156545] [-6364753.5198737085:12543512.715826545] [-5641597.0754561573:11385912.790659076] [-8285782.7016345281:9685135.4479819052] [-8872547.311440587:6385899.5612326376] [-1:1] [-1:1] [-1:1] [-36407016.843206033:21457272.901372708] [-36643042.739169382:21663377.161108512] [-36553828.983099751:21522388.799704242] [-158:150] [-251:151] [-301:158] [-1241104.6294495221:730952.91782962799] [-1174555.4446713801:711677.53412980598] [-1308454.1585368277:727519.81021980604] [-1318900.0670392355:1657102.380075654] [-1279752.0455299998:1583758.3878941503] [-1957250.5855682034:882073.80244415044] [-586500:1703291.3842545] [-586500:2162139.409591971] [-796440.72552422027:2156816.8467717711] [-30:36] [-42:36] [-42:36] [-18321432.614144016:13298852.050663257] [-21571833.397269998:13364256.673493259] [-21571833.397269998:13276938.460941859] [-6:6] [-10:6] [-18:6] [-39:40] [-39:68] [-51:37] [-773:697] [-1066:1079] [-953:1113] [-405:204] [-652:316] [-713:395] [-9:9] [-9:9] [-9:9] [-484:62] [-1738:92] [-3939:123] [-541230.0010766401:447151.86852335942] [-948537.84753827588:448091.92639310274] [-948657.27522758604:447686.65489310276] [-7:9] [-9:9] [-9:9] [-484:62] [-4846:768] [-4818:4230] [-672514.11512927513:652150.83414888883] [-655368.74458465481:814347.0220588888] [-912663.3763029984:825574.93474075652] [-11:1] [-10:2] [-9:-5] [-389942.60712090816:233869.04950084136] [-440241.49790346937:230398.87455686706] [-440241.49790346937:225032.85527020096] [-405:204] [-652:316] [-713:395] [28:90] [59:184] [90:215] [-9:9] [-9:9] [-9:9] [-9:18] [-18:18] [-18:18] [-10:10] [-10:10] [-10:10] [-20:20] [-20:20] [-20:20] [-1010:1010] [-1010:1010] [-1010:1010] [-10:10] [-10:10] [-10:10] [-10:10] [-10:10] [-10:10] [-2789:4171] [-4846:4199] [-4818:4230] [-2266341.5699999998:726374.99596754834] [-2266341.5699999998:814347.0220588888] [-2266341.5699999998:825574.93474075652]
+tree_sizes=967 973 970 968 966 964 966 976 970 976 969 970 975 979 969
+
+Tree=0
+num_leaves=8
+num_cat=0
+split_feature=33 11 33 228 5 135 12
+split_gain=1229.43 425.355 118.648 109.542 102.941 61.8381 29.2399
+threshold=12.500000000000002 -599.22801879275687 38.20000000000001 1.0000000180025095e-35 1822.1105595986903 110.75580000000001 1785.2173579790121
+decision_type=2 2 2 10 2 8 2
+left_child=1 4 3 6 -1 -3 -2
+right_child=2 5 -4 -5 -6 -7 -8
+leaf_value=15.248155105873817 -2.5815724713483768 2.3440061887945864 -5.2174878889251177 2.2235402835180924 6.7646415820370107 -3.0993961293725474 -4.6051847146808926
+leaf_weight=2.9763612002134314 11.662476539611818 4.9201072901487342 265.63517528027296 3.3306899145245543 2.7536402940750122 3.624276563525199 18.414969466626644
+leaf_count=294 1152 486 26239 329 272 358 1819
+internal_value=-4.56132 4.50535 -4.99411 -3.21796 11.1713 0.0350749 -3.82053
+internal_weight=313.318 14.2744 299.043 33.4081 5.73 8.54438 30.0774
+internal_count=30949 1410 29539 3300 566 844 2971
+is_linear=0
+shrinkage=1
+
+
+Tree=1
+num_leaves=8
+num_cat=0
+split_feature=10 93 66 134 24 185 96
+split_gain=502.904 574.718 459.339 108.726 105.603 46.7956 56.2705
+threshold=5.5000000000000009 24.053552758510005 12.500000000000002 1.0000000180025095e-35 38.500000000000007 1064.0255564839404 265.84968726516007
+decision_type=2 10 8 10 2 10 8
+left_child=1 -1 3 -2 5 6 -4
+right_child=2 -3 4 -5 -6 -7 -8
+leaf_value=12.275579801666527 -0.93237158810474829 -2.4833301292205276 -0.98066468931785522 5.6584677260173448 -5.2508039442106842 0.7066069497632963 -4.4357321121173268
+leaf_weight=3.5837818533182135 6.2361853718757612 10.00219342112541 6.0843302085995683 4.1810788288712502 259.15602164715528 2.7030219063162795 20.925641499459751
+leaf_count=354 616 988 601 413 25599 267 2067
+internal_value=-4.54069 1.40985 -4.81081 1.71293 -5.04607 -3.26043 -3.65744
+internal_weight=312.872 13.586 299.286 10.4173 288.869 29.713 27.01
+internal_count=30905 1342 29563 1029 28534 2935 2668
+is_linear=0
+shrinkage=1
+
+
+Tree=2
+num_leaves=8
+num_cat=0
+split_feature=33 144 126 95 12 127 294
+split_gain=1520.45 427.017 730.638 248.278 70.7309 64.9919 33.7877
+threshold=12.500000000000002 23698.245751999999 4328.0000000000009 -209.61606969602499 2931.6031030239656 898.60176785368515 282.95403798894023
+decision_type=2 8 8 10 2 8 8
+left_child=1 2 3 -1 5 6 -2
+right_child=4 -3 -4 -5 -6 -7 -8
+leaf_value=10.995531834214297 -1.5460356990255066 -3.8941318197066632 22.439572510533438 -0.74881693005792638 -5.2691817305721305 -4.8114467165888213 -4.7123566719362993
+leaf_weight=2.8953717797994605 12.634349584579466 3.5534108206629762 2.8548770695924768 4.7581284493207896 252.0188289731741 31.120184794068336 4.5961496084928539
+leaf_count=286 1248 351 282 470 24894 3074 454
+internal_value=-4.58084 5.58236 8.78684 3.69415 -5.05663 -3.94875 -2.39064
+internal_weight=314.431 14.0618 10.5084 7.6535 300.37 48.3507 17.2305
+internal_count=31059 1389 1038 756 29670 4776 1702
+is_linear=0
+shrinkage=1
+
+
+Tree=3
+num_leaves=8
+num_cat=0
+split_feature=24 144 39 29 20 9 229
+split_gain=1051.35 322.686 540.829 101.987 65.9733 110.572 152.421
+threshold=12.500000000000002 18900.222471650002 355.00000000000006 617.50000000000011 13078.287646291539 87.41158104398302 1.0000000180025095e-35
+decision_type=2 8 2 10 2 2 10
+left_child=1 2 3 -1 5 6 -2
+right_child=4 -3 -4 -5 -6 -7 -8
+leaf_value=-2.0201530258795612 -3.5328475627571265 -4.2656059026189181 19.210318338970236 5.242372710202468 -5.4638888534992667 -4.9007150267695563 4.0386160842784724
+leaf_weight=3.087721653282637 18.050517074763778 3.796379081904889 2.5410430654883394 5.1731992289423943 159.98447635024786 117.31317546963692 3.1180926859378806
+leaf_count=305 1783 375 251 511 15803 11588 308
+internal_value=-4.62119 3.66497 6.4522 2.52783 -5.02647 -4.52114 -2.41759
+internal_weight=313.065 14.5983 10.802 8.26092 298.466 138.482 21.1686
+internal_count=30924 1442 1067 816 29482 13679 2091
+is_linear=0
+shrinkage=1
+
+
+Tree=4
+num_leaves=8
+num_cat=0
+split_feature=33 95 24 9 184 96 16
+split_gain=1069.87 347.091 104.517 74.5975 50.6573 35.1725 30.37
+threshold=12.500000000000002 -1570.9461149999997 38.500000000000007 17.294445447567004 1210.5193595212716 265.84968726516007 2493.9166368647484
+decision_type=2 8 2 2 8 8 2
+left_child=1 -1 3 -2 -3 -5 -4
+right_child=2 4 6 5 -6 -7 -8
+leaf_value=10.810350011626596 0.22783995592397233 -1.2407455131905563 -4.3756948743516935 -1.6687917947134392 3.6579036048951155 -4.5176548454231407 -5.3587528175161623
+leaf_weight=4.7581284493207932 4.9909730330109587 6.4487826004624349 36.455362863838673 5.3655491024255761 3.1383400410413742 22.535306230187416 227.78274491429329
+leaf_count=470 493 637 3601 530 310 2226 22500
+internal_value=-4.60665 3.82813 -5.01388 -3.33285 0.362825 -3.9698 -5.22313
+internal_weight=311.475 14.3453 297.13 32.8918 9.58712 27.9009 264.238
+internal_count=30767 1417 29350 3249 947 2756 26101
+is_linear=0
+shrinkage=1
+
+
+Tree=5
+num_leaves=8
+num_cat=0
+split_feature=108 53 117 238 96 113 5
+split_gain=960.625 260.887 151.8 166.562 69.2589 59.9106 63.3489
+threshold=12.500000000000002 -1017.188194942962 53.500000000000007 -15.499999999999998 265.84968726516007 613.50000000000011 640.93040345285306
+decision_type=8 10 8 8 10 8 2
+left_child=1 -1 3 -2 -5 -3 -7
+right_child=2 5 -4 4 -6 6 -8
+leaf_value=9.3465804805960424 2.6488775952250974 -3.1208850031093602 -5.2826870477737264 -1.5754156650727285 -4.5020788108742709 -0.48268195995788155 5.9478946430198603
+leaf_weight=4.8897362574934951 4.1304604411125183 3.2497004941105816 243.36308466643095 9.9819460660219175 42.570064105093479 3.7255133390426645 2.6017851307988167
+leaf_count=483 408 321 24039 986 4205 368 257
+internal_value=-4.55566 3.40348 -4.93941 -3.46559 -3.94618 0.36911 2.16157
+internal_weight=314.512 14.4667 300.046 56.6825 52.552 9.577 6.3273
+internal_count=31067 1429 29638 5599 5191 946 625
+is_linear=0
+shrinkage=1
+
+
+Tree=6
+num_leaves=8
+num_cat=0
+split_feature=24 137 33 182 181 238 135
+split_gain=1261.55 392.46 137.097 83.0638 81.4154 72.7657 60.053
+threshold=12.500000000000002 -198.20293999999998 30.500000000000004 288.90908903836231 199.00681989641387 -15.499999999999998 204.36608370000002
+decision_type=2 8 2 10 10 8 8
+left_child=1 4 5 -3 -1 -2 -7
+right_child=2 3 -4 -5 -6 6 -8
+leaf_value=15.212788712861464 2.3045931552636443 -1.4023759842700141 -5.2162538194346819 5.1153643165636451 7.3843898271554069 -1.6354641373003909 -5.2323725922870779
+leaf_weight=2.692898228764534 2.6625271961092949 6.4589062780141813 275.65761605650187 2.804258681833744 2.6220324859023094 10.133801229298113 8.564631208777433
+leaf_count=266 263 638 27229 277 259 1001 846
+internal_value=-4.58136 4.50097 -5.02713 0.570754 11.3508 -2.58653 -3.28299
+internal_weight=311.597 14.5781 297.019 9.26316 5.31493 21.361 18.6984
+internal_count=30779 1440 29339 915 525 2110 1847
+is_linear=0
+shrinkage=1
+
+
+Tree=7
+num_leaves=8
+num_cat=0
+split_feature=96 24 168 20 58 135 58
+split_gain=752.225 760.805 196.998 76.9499 114.945 64.3677 55.8503
+threshold=265.84968726516007 12.500000000000002 2862.5000000000005 13078.287646291539 8039.1617568696556 110.75580000000001 13617.155326319182
+decision_type=8 2 8 2 10 8 10
+left_child=1 2 -1 4 5 -2 -3
+right_child=3 6 -4 -5 -6 -7 -8
+leaf_value=3.8950150922982134 -0.88804470575972783 -1.3155715391304965 13.544189157130372 -5.4927643400777164 -5.0744732770203305 -3.7911514026313822 -4.4971741620966874
+leaf_weight=4.7480047717690477 10.437511555850504 11.014561176300051 3.8166264370083818 155.75277913361788 88.551807545125484 28.467781275510788 11.055055886507033
+leaf_count=469 1031 1088 377 15385 8747 2812 1092
+internal_value=-4.51206 0.195197 8.19494 -5.02123 -4.44501 -3.01231 -2.90929
+internal_weight=313.844 30.6342 8.56463 283.21 127.457 38.9053 22.0696
+internal_count=31001 3026 846 27975 12590 3843 2180
+is_linear=0
+shrinkage=1
+
+
+Tree=8
+num_leaves=8
+num_cat=0
+split_feature=24 137 30 9 66 129 18
+split_gain=986.465 240.614 88.7777 84.3148 72.3901 59.3592 50.6297
+threshold=12.500000000000002 -264.84999999999997 1.0000000180025095e-35 87.41158104398302 54.500000000000007 44.500000000000007 10869.749053232781
+decision_type=2 8 8 2 8 10 2
+left_child=1 5 -3 4 6 -1 -2
+right_child=3 2 -4 -5 -6 -7 -8
+leaf_value=5.4746260040810375 -0.97075864444989568 -2.3780097169115901 3.8484469984165086 -5.229857204104583 -4.9230287711634322 12.166581814727646 -5.0825069065836121
+leaf_weight=2.7131455838680267 11.92569215595722 5.3048070371150944 4.0292236655950555 266.44506948441267 18.192248560488224 2.5916614532470703 3.9988526329398146
+leaf_count=268 1178 524 398 26319 1797 256 395
+internal_value=-4.64991 3.36615 0.309767 -5.04033 -3.56019 8.74398 -2.00327
+internal_weight=315.201 14.6388 9.33403 300.562 34.1168 5.30481 15.9245
+internal_count=31135 1446 922 29689 3370 524 1573
+is_linear=0
+shrinkage=1
+
+
+Tree=9
+num_leaves=8
+num_cat=0
+split_feature=66 144 155 137 33 229 265
+split_gain=1227.03 403.81 703.839 173.413 144.093 69.8359 66.3761
+threshold=12.500000000000002 18900.222471650002 4790.5000000000009 -138.62289344999996 22.400000000000002 1.0000000180025095e-35 -11.499999999999998
+decision_type=8 8 8 10 2 10 8
+left_child=1 2 3 -1 6 -6 -2
+right_child=4 -3 -4 -5 5 -7 -8
+leaf_value=9.5841019509554108 2.8730826373082357 -4.4851133152488867 21.731056079534866 -0.48694258520302469 -5.2814969159490781 -3.2059415972819911 -2.8509486172403804
+leaf_weight=2.5714140981435767 2.6017851307988167 3.6445239186286935 2.6726508736610421 5.1023334860801661 268.96586519479752 17.250746548175812 9.1518045067787153
+leaf_count=254 257 360 264 504 26568 1704 904
+internal_value=-4.58573 4.56679 7.75532 2.88779 -5.01548 -5.1564 -1.58387
+internal_weight=311.961 13.9909 10.3464 7.67375 297.97 286.217 11.7536
+internal_count=30815 1382 1022 758 29433 28272 1161
+is_linear=0
+shrinkage=1
+
+
+Tree=10
+num_leaves=8
+num_cat=0
+split_feature=66 14 179 33 29 12 186
+split_gain=1256.31 348.499 230.796 129.928 78.6546 45.6082 33.348
+threshold=12.500000000000002 -1508.6320926616247 114.19926218080799 22.400000000000002 617.50000000000011 1785.2173579790121 -1.0000000180025095e-35
+decision_type=8 2 10 2 8 2 10
+left_child=1 2 -1 5 -3 6 -2
+right_child=3 4 -4 -5 -6 -7 -8
+leaf_value=17.465627947747993 -1.8784627902680082 -3.5031064692727099 4.3333215434956101 -5.1473961496749663 2.9144107556645755 -3.7601718602532337 2.939402111941237
+leaf_weight=2.7333929389715186 3.2395768165588379 2.8852481022477123 2.6220324859023094 287.18848478794098 5.6490120738744745 5.4870332330465317 2.5815377756953222
+leaf_count=270 320 285 259 28368 558 542 255
+internal_value=-4.58389 4.71276 11.036 -5.01648 0.744787 -1.69165 0.258156
+internal_weight=312.386 13.8897 5.35543 298.497 8.53426 11.3081 5.82111
+internal_count=30857 1372 529 29485 843 1117 575
+is_linear=0
+shrinkage=1
+
+
+Tree=11
+num_leaves=8
+num_cat=0
+split_feature=24 137 182 45 227 12 32
+split_gain=1436.55 344.663 197.582 121.052 110.328 120.297 48.6792
+threshold=12.500000000000002 -264.84999999999997 288.90908903836231 45.500000000000007 1.0000000180025095e-35 2931.6031030239656 283.54383147396322
+decision_type=2 8 10 10 10 2 2
+left_child=1 3 -3 -1 6 -6 -2
+right_child=4 2 -4 -5 5 -7 -8
+leaf_value=6.8130623348230328 -4.6821680228168905 -1.3576183211404813 8.5791181783734451 16.497212892027534 3.6457754467020367 -3.9987412056314633 -5.506652428267178
+leaf_weight=2.5815377756953239 131.04088222980499 6.863853380084036 2.8245060369372368 2.5815377756953239 2.9257428124546987 6.9448428004980087 157.89899877458811
+leaf_count=255 12944 678 279 255 289 686 15597
+internal_value=-4.54331 5.05605 1.5393 11.6551 -5.02042 -1.73283 -5.13273
+internal_weight=313.662 14.8514 9.68836 5.16308 298.81 9.87059 288.94
+internal_count=30983 1467 957 510 29516 975 28541
+is_linear=0
+shrinkage=1
+
+
+Tree=12
+num_leaves=8
+num_cat=0
+split_feature=108 56 33 181 54 20 15
+split_gain=965.515 346.272 171.148 93.2534 55.8196 41.5311 76.8047
+threshold=12.500000000000002 -3370.7499999999995 22.400000000000002 312.90662800721321 3241.6025242175606 13078.287646291539 1.5000000000000002
+decision_type=8 10 2 10 8 2 2
+left_child=1 -1 4 -3 -2 6 -4
+right_child=2 3 5 -5 -6 -7 -8
+leaf_value=11.573586871890935 0.67687321205401307 -1.4725948021094393 -2.7195102136600076 5.1687330973548393 -3.6213476843222949 -5.4810853523119896 -5.0138350568454557
+leaf_weight=3.8469974696636191 6.5500193759798977 7.2991715148091298 16.764810025691986 2.9763612002134323 5.608517363667489 157.53454638272524 112.51455231010914
+leaf_count=380 647 721 1656 294 554 15561 11114
+internal_value=-4.59892 3.48088 -4.98059 0.4511 -1.30582 -5.13637 -4.71631
+internal_weight=313.095 14.1225 298.972 10.2755 12.1585 286.814 129.279
+internal_count=30927 1395 29532 1015 1201 28331 12770
+is_linear=0
+shrinkage=1
+
+
+Tree=13
+num_leaves=8
+num_cat=0
+split_feature=33 60 123 98 229 66 127
+split_gain=1356.83 330.597 595.397 134.45 110.768 100.363 54.4485
+threshold=12.500000000000002 23467.960000000003 355.00000000000006 -1.0000000180025095e-35 1.0000000180025095e-35 68.500000000000014 722.20712364096016
+decision_type=2 8 10 8 10 10 10
+left_child=1 2 3 -1 -2 6 -6
+right_child=4 -3 -4 -5 5 -7 -8
+leaf_value=9.1813713251827949 -5.1808061447511911 -4.5572697311653121 20.889943584775487 0.84866029214543381 3.0067701158174316 -4.6002257016190331 -2.3133910413566428
+leaf_weight=2.8447533920407295 278.71496667712927 2.9257428124547014 2.530919387936593 6.0640828534960693 3.4926687553524998 11.196787372231482 4.2823156043887138
+leaf_count=281 27531 289 250 599 345 1106 423
+internal_value=-4.56359 4.92865 7.35469 3.50945 -5.02166 -2.68361 0.0765251
+internal_weight=312.052 14.3655 11.4398 8.90884 297.687 18.9718 7.77498
+internal_count=30824 1419 1130 880 29405 1874 768
+is_linear=0
+shrinkage=1
+
+
+Tree=14
+num_leaves=8
+num_cat=0
+split_feature=33 95 96 126 45 75 33
+split_gain=1457.4 348.865 116.488 115.048 82.4828 61.979 46.3939
+threshold=12.500000000000002 -1930.5034510775497 265.84968726516007 2867.5000000000005 64.500000000000014 22.400000000000002 45.300000000000004
+decision_type=2 8 8 8 8 10 2
+left_child=1 -1 4 -3 5 -2 -4
+right_child=2 3 6 -5 -6 -7 -8
+leaf_value=12.837552080060185 0.79014547214872977 -0.99257901764194711 -4.0974808265538654 5.9032026080531201 2.3196164762801459 -4.3006473195604968 -5.3393844517248708
+leaf_weight=4.343057669699192 2.8245060369372466 5.4465385228395435 34.339514255523682 4.3531813472509393 2.7840113267302504 15.600587107241152 242.53294310718775
+leaf_count=429 279 538 3392 430 275 1541 23957
+internal_value=-4.54173 5.37701 -5.01234 2.07063 -2.75368 -3.52025 -5.18536
+internal_weight=312.224 14.1428 298.082 9.79972 21.2091 18.4251 276.872
+internal_count=30841 1397 29444 968 2095 1820 27349
+is_linear=0
+shrinkage=1
+
+
+end of trees
+
+feature_importances:
+ctrx_quarter_normalizado=11
+ctrx_quarter=7
+ctrx_quarter_lag1=5
+mcaja_ahorro_lag2=5
+mcaja_ahorro=4
+mcuenta_corriente_lag3=4
+mpasivos_margen=3
+mpayroll=3
+mcuenta_corriente_lag2=3
+mpasivos_margen_lag3=3
+mprestamos_personales_lag3=3
+ccomisiones_mantenimiento_delta3=3
+mrentabilidad=2
+Visa_fechaalta=2
+cliente_edad_lag1=2
+mtarjeta_visa_consumo_lag1=2
+ctrx_quarter_lag2=2
+vm_fechaalta_lag2=2
+vm_mpagominimo_lag2=2
+mrentabilidad_delta3=2
+mrentabilidad_annual_delta1=2
+ctrx_quarter_delta3=2
+cproductos=1
+mcuenta_corriente=1
+mcuentas_saldo=1
+ctarjeta_visa_transacciones=1
+mtarjeta_visa_consumo=1
+mprestamos_personales=1
+Visa_mpagominimo=1
+mpayroll_sobre_edad=1
+vm_status05=1
+mcuenta_corriente_lag1=1
+mcaja_ahorro_lag1=1
+mcuentas_saldo_lag1=1
+mprestamos_personales_lag1=1
+ctrx_quarter_normalizado_lag1=1
+mpasivos_margen_lag2=1
+mcuentas_saldo_lag2=1
+Visa_fechaalta_lag2=1
+ctrx_quarter_normalizado_lag2=1
+vm_status05_lag2=1
+cliente_edad_lag3=1
+mactivos_margen_lag3=1
+Visa_fechaalta_lag3=1
+vm_fechaalta_lag3=1
+mrentabilidad_delta1=1
+mrentabilidad_annual_delta3=1
+mcomisiones_delta1=1
+mcomisiones_delta2=1
+ccomisiones_mantenimiento_delta1=1
+ccomisiones_mantenimiento_delta2=1
+ctrx_quarter_normalizado_delta3=1
+vm_mpagominimo_delta2=1
+
+parameters:
+[boosting: rf]
+[objective: binary]
+[metric: binary_logloss]
+[tree_learner: serial]
+[device_type: cpu]
+[data_sample_strategy: bagging]
+[data: ]
+[valid: ]
+[num_iterations: 15]
+[learning_rate: 0.1]
+[num_leaves: 8]
+[num_threads: 0]
+[seed: 0]
+[deterministic: 0]
+[force_col_wise: 0]
+[force_row_wise: 1]
+[histogram_pool_size: -1]
+[max_depth: -1]
+[min_data_in_leaf: 250]
+[min_sum_hessian_in_leaf: 0.001]
+[bagging_fraction: 0.632121]
+[pos_bagging_fraction: 1]
+[neg_bagging_fraction: 1]
+[bagging_freq: 1]
+[bagging_seed: 3]
+[bagging_by_query: 0]
+[feature_fraction: 1]
+[feature_fraction_bynode: 0.2]
+[feature_fraction_seed: 2]
+[extra_trees: 0]
+[extra_seed: 6]
+[early_stopping_round: 0]
+[early_stopping_min_delta: 0]
+[first_metric_only: 1]
+[max_delta_step: 0]
+[lambda_l1: 0]
+[lambda_l2: 0]
+[linear_lambda: 0]
+[min_gain_to_split: 0]
+[drop_rate: 0.1]
+[max_drop: 50]
+[skip_drop: 0.5]
+[xgboost_dart_mode: 0]
+[uniform_drop: 0]
+[drop_seed: 4]
+[top_rate: 0.2]
+[other_rate: 0.1]
+[min_data_per_group: 100]
+[max_cat_threshold: 32]
+[cat_l2: 10]
+[cat_smooth: 10]
+[max_cat_to_onehot: 4]
+[top_k: 20]
+[monotone_constraints: ]
+[monotone_constraints_method: basic]
+[monotone_penalty: 0]
+[feature_contri: ]
+[forcedsplits_filename: ]
+[refit_decay_rate: 0.9]
+[cegb_tradeoff: 1]
+[cegb_penalty_split: 0]
+[cegb_penalty_feature_lazy: ]
+[cegb_penalty_feature_coupled: ]
+[path_smooth: 0]
+[interaction_constraints: ]
+[verbosity: -100]
+[saved_feature_importance_type: 0]
+[use_quantized_grad: 0]
+[num_grad_quant_bins: 4]
+[quant_train_renew_leaf: 0]
+[stochastic_rounding: 1]
+[linear_tree: 0]
+[max_bin: 31]
+[max_bin_by_feature: ]
+[min_data_in_bin: 3]
+[bin_construct_sample_cnt: 200000]
+[data_random_seed: 1]
+[is_enable_sparse: 1]
+[enable_bundle: 1]
+[use_missing: 1]
+[zero_as_missing: 0]
+[feature_pre_filter: 0]
+[pre_partition: 0]
+[two_round: 0]
+[header: 0]
+[label_column: ]
+[weight_column: ]
+[group_column: ]
+[ignore_column: ]
+[categorical_feature: ]
+[forcedbins_filename: ]
+[precise_float_parser: 0]
+[parser_config_file: ]
+[objective_seed: 5]
+[num_class: 1]
+[is_unbalance: 0]
+[scale_pos_weight: 1]
+[sigmoid: 1]
+[boost_from_average: 1]
+[reg_sqrt: 0]
+[alpha: 0.9]
+[fair_c: 1]
+[poisson_max_delta_step: 0.7]
+[tweedie_variance_power: 1.5]
+[lambdarank_truncation_level: 30]
+[lambdarank_norm: 1]
+[label_gain: ]
+[lambdarank_position_bias_regularization: 0]
+[eval_at: ]
+[multi_error_top_k: 1]
+[auc_mu_weights: ]
+[num_machines: 1]
+[local_listen_port: 12400]
+[time_out: 120]
+[machine_list_filename: ]
+[machines: ]
+[gpu_platform_id: -1]
+[gpu_device_id: -1]
+[gpu_use_dp: 0]
+[num_gpu: 1]
+
+end of parameters

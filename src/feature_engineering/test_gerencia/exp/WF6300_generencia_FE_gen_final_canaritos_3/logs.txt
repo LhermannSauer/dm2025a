@@ -1,0 +1,16 @@
+mrentabilidad mrentabilidad_annual mcomisiones mactivos_margen mpasivos_margen mcuenta_corriente mcaja_ahorro mcuentas_saldo mtarjeta_visa_consumo mtarjeta_master_consumo mprestamos_personales mpayroll Master_mpagominimo Visa_mpagominimo mpayroll_sobre_edadinicio AgregarVariables_IntraMes()
+ATENCION, hay8valores NaN 0/0 en tu dataset. Seran pasados arbitrariamente a 0
+Si no te gusta la decision, modifica a gusto el programa!
+
+fin AgregarVariables_IntraMes()
+45Fin construccion RandomForest
+mrentabilidad mrentabilidad_annual mcomisiones mactivos_margen mpasivos_margen mcuenta_corriente mcaja_ahorro mcuentas_saldo mtarjeta_visa_consumo mtarjeta_master_consumo mprestamos_personales mpayroll Master_mpagominimo Visa_mpagominimo mpayroll_sobre_edadinicio AgregarVariables_IntraMes()
+ATENCION, hay8valores NaN 0/0 en tu dataset. Seran pasados arbitrariamente a 0
+Si no te gusta la decision, modifica a gusto el programa!
+
+fin AgregarVariables_IntraMes()
+45Fin construccion RandomForest
+inicio CanaritosAsesinos()
+fin CanaritosAsesinos()
+inicio CanaritosAsesinos()
+fin CanaritosAsesinos()

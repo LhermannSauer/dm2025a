@@ -1,0 +1,149 @@
+semilla_primigenia: 700001.0
+experimento: 6300_gerencial_GENALGO_5_200
+dataset: gerencial_competencia_2025.csv.gz
+CN:
+  ratio: 0.2
+  desvios: 2.0
+  train:
+    clase01_valor1:
+    - BAJA+2
+    - BAJA+1
+    positivos: BAJA+2
+    training:
+    - 202101.0
+    - 202102.0
+    - 202103.0
+    validation: 202105.0
+    undersampling: 0.1
+    gan1: 117000.0
+    gan0: -3000.0
+FT:
+  semillas:
+  - 405799
+  - 729637
+  - 136951
+  - 962561
+  - 927301
+  - 726629
+  - 301141
+  - 997433
+  - 583273
+  - 280487
+  - 907757
+  - 180491
+  - 925147
+  - 710023
+  - 111611
+  - 884699
+  - 595087
+  - 237379
+  - 309737
+  - 827423
+trainingstrategy:
+  validate: 202107.0
+  training:
+  - 202106.0
+  - 202105.0
+  - 202104.0
+  - 202103.0
+  - 202102.0
+  - 202101.0
+  - 202012.0
+  - 202011.0
+  - 202010.0
+  - 202009.0
+  - 202008.0
+  - 202007.0
+  - 202006.0
+  - 202005.0
+  training_pct: 1.0
+  positivos:
+  - BAJA+1
+  - BAJA+2
+  final_train:
+  - 202107.0
+  - 202106.0
+  - 202105.0
+  - 202104.0
+  - 202103.0
+  - 202102.0
+  - 202101.0
+  - 202012.0
+  - 202011.0
+  - 202010.0
+  - 202009.0
+  - 202008.0
+  - 202007.0
+  - 202006.0
+  - 202005.0
+  future: 202109.0
+hipeparametertuning:
+  num_interations: 10.0
+  hs:
+    pars:
+      num_leaves:
+        id: num_leaves
+        type: integer
+        len: 1
+        lower: 2
+        upper: 256
+        values: ~
+        cnames: ~
+        allow.inf: no
+        has.default: no
+        default: ~
+        trafo: ~
+        requires: ~
+        tunable: yes
+        special.vals: []
+      min_data_in_leaf:
+        id: min_data_in_leaf
+        type: integer
+        len: 1
+        lower: 2
+        upper: 8192
+        values: ~
+        cnames: ~
+        allow.inf: no
+        has.default: no
+        default: ~
+        trafo: ~
+        requires: ~
+        tunable: yes
+        special.vals: []
+    forbidden: ~
+lgbm:
+  param_fijos:
+    objective: binary
+    metric: auc
+    first_metric_only: yes
+    boost_from_average: yes
+    feature_pre_filter: no
+    verbosity: -100.0
+    force_row_wise: yes
+    seed: 700001.0
+    max_bin: 31.0
+    learning_rate: 0.03
+    feature_fraction: 0.5
+    num_iterations: 2048.0
+    early_stopping_rounds: 200.0
+out:
+  lgbm:
+    mejores_hiperparametros:
+      num_leaves: 208
+      min_data_in_leaf: 2
+      num_iterations: 538
+kaggle:
+  competencia: data-mining-gerencial-2025-a
+  cortes:
+  - 800.0
+  - 850.0
+  - 900.0
+  - 950.0
+  - 1000.0
+  - 1050.0
+  - 1100.0
+  - 1150.0
+  - 1200.0
+  - 1250.0
+  - 1300.0
